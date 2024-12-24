@@ -3,19 +3,16 @@ import math
 a = (int(input("Enter 1st number on which u want to do ops.: ")))
 b = (int(input("Enter 2nd number on which u want to do ops.: ")))
 
-Ops = ("Enter 1 for Plus : +","Enter 2 for Minus: -", "Enter 3 for Multiply: *", 
-"Enter 4 for div: /", "Enter 5 for power or exponential: ^", "Enter 6 for Square root",
-"Enter 7 for cube root", "Enter 8 to find percentage: %", "Enter 9 for Pi: π", 
-"Enter 10 for sin(a)", "Enter 11 for cos(a)", "Enter 12 for tan(a)", "Enter 13 for cosec(a)", 
-"Enter 14 for ten to the power of a", "Enter 15 for finding modulo of a", 
-"Enter 16 if want to find the number is even or odd", "Enter 17 to find out factorial of a",
+Ops = ("Enter 1 for Plus : +","Enter 2 for Minus: -", "Enter 3 for Multiply: *", "Enter 4 for div: /", "Enter 5 for power or exponential: ^", "Enter 6 for Square root",
+"Enter 7 for cube root", "Enter 8 to find percentage: %", "Enter 9 for Pi: π", "Enter 10 for sin(a)", "Enter 11 for cos(a)", "Enter 12 for tan(a)", "Enter 13 for cosec(a)", 
+"Enter 14 for ten to the power of a", "Enter 15 for finding modulo of a", "Enter 16 if want to find the number is even or odd", "Enter 17 to find out factorial of a",
 "Enter 18 to find the value of e","Enter 19 to find out log of a")
 
 a_in_radians = math.radians(a)
 
-# def ln(a):
-#     e = 2.7182818284590452353602874713527
-#     ln = e**(ln(a)) = a
+def ln(a):
+    e = 2.7182818284590452353602874713527
+    ln = e**(ln(a)) = a
 
 def sin(a):
     return math.sin(a)
@@ -100,4 +97,3 @@ match op:
         print(log)
     case _:
         print("Please Enter a number!! Alphabets not allowed")
-
